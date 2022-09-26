@@ -1,0 +1,22 @@
+.App {
+  border: 1px solid blue;
+  width: 500px;
+  height: 90vh;
+  margin: 0 auto;
+  text-align: center;
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    .task {
+      border: 1px solid green;
+      padding: 10px;
+      margin: 10px;
+      background-color: lightpink;
+      &.done {
+        background-color: grey;
+        text-decoration: line-through;
+      }
+    }
+  }
+}
